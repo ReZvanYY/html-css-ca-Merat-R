@@ -1,0 +1,143 @@
+.Rainy-Days-Logo {
+  width: 34.125rem;
+  height: 18.375rem;
+  display: flex;
+  margin: auto;
+}
+.Home-Page-Text {
+  font-size: 1.563rem;
+  font-family: "Kameron";
+  width: 34.125rem;
+  height: 9.8756rem;
+  text-align: center;
+  margin: auto;
+  color: rgba(10, 54, 65, 1);
+}
+.View-Product {
+  width: 16.125rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.625rem;
+  color: white;
+  background-color: rgba(10, 54, 65, 1);
+  font-family: "Kameron";
+  font-size: 1.563rem;
+  margin: 130px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+@media (max-width: 2560px) and (min-width: 1440px) {
+  .Rainy-Days-Logo {
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    margin: auto;
+  }
+  .Home-Page-Text {
+    font-size: 2.5rem;
+    width: 60%;
+  }
+  .View-Product {
+    width: 20.125rem;
+    height: 6rem;
+    border-radius: 0.625rem;
+    font-size: 2.5rem;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .Rainy-Days-Logo {
+    width: 22.125rem;
+    height: 18.375rem;
+    display: flex;
+    margin: auto;
+  }
+  .Home-Page-Text {
+    font-size: 2rem;
+    width: 55%;
+    margin: auto;
+  }
+  .View-Product {
+    width: 10.125rem;
+    height: 4rem;
+    border-radius: 0.625rem;
+    font-size: 1.563rem;
+    margin: auto;
+    display: flex;
+    margin-bottom: 9rem;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .Rainy-Days-Logo {
+    width: 19rem;
+    height: 17rem;
+    display: flex;
+    margin: auto;
+  }
+  .Home-Page-Text {
+    font-size: 1.7rem;
+    width: 60%;
+    margin: auto;
+  }
+  .View-Product {
+    width: 13rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    font-size: 2rem;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 768px) and (min-width: 430px) {
+  .Rainy-Days-Logo {
+    width: 17.125rem;
+    height: 14.375rem;
+    display: flex;
+    margin: auto;
+  }
+  .Home-Page-Text {
+    font-size: 1.3rem;
+    width: 17.125rem;
+    height: 11.8756rem;
+    margin: auto;
+  }
+  .View-Product {
+    width: 10.125rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    font-size: 1.563rem;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 430px) and (min-width: 350px) {
+  .Rainy-Days-Logo {
+    width: 17.125rem;
+    height: 14.375rem;
+    display: flex;
+    margin: auto;
+  }
+  .Home-Page-Text {
+    font-size: 1.3rem;
+    width: 17.125rem;
+    height: 11.8756rem;
+    margin: auto;
+  }
+  .View-Product {
+    width: 10.125rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    font-size: 1.563rem;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10rem;
+  }
+}

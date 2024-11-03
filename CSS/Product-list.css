@@ -1,0 +1,190 @@
+.product-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0.5rem auto auto;
+  text-align: center;
+  max-width: 81.875rem;
+  max-height: 46.938rem;
+  gap: 0.95rem 4rem;
+}
+.product-container {
+  display: contents;
+}
+.product-container > * {
+  grid-column: span 1;
+}
+.Image-size {
+  width: 17.188rem;
+  height: 9.3rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  border: solid rgba(10, 54, 65, 1);
+  border-radius: 0.6rem;
+  max-width: 17.188rem;
+  max-height: 19.9rem;
+  background-color: rgba(10, 54, 65, 1);
+  margin-bottom: 1rem;
+}
+.product-name-VitaForce,
+.product-name-Akra,
+.product-name-AllTerrain,
+.product-name-M83,
+.product-name-Silverbreeze,
+.product-name-Habita,
+.product-name-Gelventure {
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+  font-family: "Kadwa";
+}
+
+.product-price-VitaForce,
+.product-price-Akra,
+.product-price-AllTerrain,
+.product-price-M83,
+.product-price-Silverbreeze,
+.product-price-Habita,
+.product-price-Gelventure {
+  color: white;
+  font-family: "Kadwa";
+  font-size: 1.2rem;
+  float: right;
+}
+.product-info {
+  font-size: 1.1rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .product-list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 0.3rem 2rem;
+    padding: 20px;
+  }
+  main {
+    margin-bottom: 15rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+  .product-list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0.3rem 2rem;
+    padding: 20px;
+  }
+  .product-container {
+    display: contents;
+  }
+  .product-container > * {
+    grid-column: span 1;
+  }
+  .Image-size {
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+    border: solid rgba(10, 54, 65, 1);
+    border-radius: 0.6rem;
+    background-color: rgba(10, 54, 65, 1);
+  }
+  .product-name-VitaForce,
+  .product-name-Akra,
+  .product-name-AllTerrain,
+  .product-name-M83,
+  .product-name-Silverbreeze,
+  .product-name-Habita,
+  .product-name-Gelventure {
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Kadwa";
+    margin-top: -0.5rem;
+  }
+  .product-price-VitaForce,
+  .product-price-Akra,
+  .product-price-AllTerrain,
+  .product-price-M83,
+  .product-price-Silverbreeze,
+  .product-price-Habita,
+  .product-price-Gelventure {
+    color: white;
+    font-family: "Kadwa";
+    font-size: 1.2rem;
+    float: right;
+  }
+  .product-info {
+    font-size: 1.3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main {
+    margin-bottom: 40rem;
+  }
+}
+@media (max-width: 430px) and (min-width: 350px) {
+  .product-list-container {
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+    margin: 0.2rem auto auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .product-container {
+    display: contents;
+  }
+  .product-container > * {
+    grid-column: span 1;
+  }
+  .Image-size {
+    height: 10rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+    border: solid rgba(10, 54, 65, 1);
+    border-radius: 0.6rem;
+    max-height: 18rem;
+    background-color: rgba(10, 54, 65, 1);
+  }
+  .product-name-VitaForce,
+  .product-name-Akra,
+  .product-name-AllTerrain,
+  .product-name-M83,
+  .product-name-Silverbreeze,
+  .product-name-Habita,
+  .product-name-Gelventure {
+    font-size: 1.1rem;
+    color: white;
+    font-family: "Kadwa";
+    margin-top: -0.5rem;
+  }
+  .product-price-VitaForce,
+  .product-price-Akra,
+  .product-price-AllTerrain,
+  .product-price-M83,
+  .product-price-Silverbreeze,
+  .product-price-Habita,
+  .product-price-Gelventure {
+    color: white;
+    font-family: "Kadwa";
+    font-size: 1rem;
+    float: right;
+  }
+  .product-info {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main {
+    margin-bottom: 95rem;
+  }
+}

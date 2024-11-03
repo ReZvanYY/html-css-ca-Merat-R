@@ -1,0 +1,133 @@
+body {
+  background-color: (211, 211, 211, 1);
+}
+.Rainy-Days-Logo-small {
+  width: 15.625rem;
+  height: 7.394rem;
+  display: flex;
+  margin: auto;
+}
+
+.No-text-decoration-white {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25rem;
+  margin: 0 4.0625rem;
+}
+.page-navigation {
+  border: solid rgba(10, 54, 65, 1);
+  background-color: rgba(10, 54, 65, 1);
+  width: 100%;
+  height: 3rem;
+  font-family: "Kameron";
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav-left-space {
+  flex: 0;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.cart-placement {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-end;
+}
+.No-text-decoration-default {
+  text-decoration: none;
+}
+.Bottom-links-container {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+.Bottom-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.No-text-decoration {
+  text-decoration: none;
+  color: black;
+  font-size: 0.875rem;
+  margin: 1rem 0.75rem;
+}
+
+@media (max-width: 2560px) and (min-width: 1440px) {
+  .Rainy-Days-Logo-small {
+    width: 15.625rem;
+    height: 7.394rem;
+    display: flex;
+    margin: auto;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .Rainy-Days-Logo-small {
+    width: 20.625rem;
+    height: 10.394rem;
+    display: flex;
+    margin: auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+}
+@media (max-width: 768px) and (min-width: 430px) {
+  .page-navigation {
+    width: 100%;
+  }
+  .nav-left-space {
+    flex: 0;
+  }
+  .nav-content {
+    flex: 1;
+  }
+  .cart-placement {
+    flex: 1;
+  }
+  .Bottom-links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Bottom-links {
+    width: 90%;
+  }
+  .No-text-decoration {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0.3rem;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 350px) {
+  .Rainy-Days-Logo-small {
+    width: 10rem;
+    height: 7.394rem;
+    display: flex;
+  }
+  .page-navigation {
+    width: 100%;
+  }
+  .No-text-decoration-white {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.1rem;
+    margin: 0 1.0625rem;
+  }
+  .Bottom-links-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .Bottom-links {
+    width: 80%;
+  }
+  .No-text-decoration {
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}

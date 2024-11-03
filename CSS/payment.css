@@ -1,0 +1,47 @@
+body {
+  font-family: "Kameron";
+}
+.contact-info-container,
+.billing-info-container,
+.payment-info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2);
+  text-align: left;
+  font-size: 1.3rem;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 40rem;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.payment-button-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+.cancel-button {
+  background-color: darkgray;
+  text-decoration: none;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 2rem;
+}
+.confirm-payment {
+  background-color: rgba(20, 190, 252, 1);
+  text-decoration: none;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 2rem;
+}

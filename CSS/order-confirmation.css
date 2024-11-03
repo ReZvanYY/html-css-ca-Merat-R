@@ -1,0 +1,118 @@
+body {
+  font-size: larger;
+  border: solid black 5px;
+  margin-top: 1rem;
+  width: 95%;
+  margin: 0 auto;
+}
+main {
+  background-color: rgba(151, 182, 190, 1);
+}
+.order-confirmation-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.thank-you-text {
+  width: 100%;
+  text-align: center;
+}
+.order-number-and-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30%;
+}
+.order-billing-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.overall-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+  justify-content: center;
+}
+.shipping-address {
+  display: grid;
+  grid-template-columns: repeat(3);
+}
+.billing-address {
+  display: grid;
+  grid-template-columns: repeat(3);
+}
+
+.product-image {
+  height: 10rem;
+  width: 10rem;
+}
+.purchased-product-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: auto;
+  padding-left: 1rem;
+  margin: 0px 10px 0px 0px;
+}
+.first-box {
+  width: 95%;
+  border: solid 3px black;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.second-box {
+  width: 95%;
+  border: solid 3px black;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.order-amount-overview {
+  display: grid;
+  grid-template-columns: repeat(3);
+  justify-content: flex-end;
+  text-align: right;
+}
+@media (max-width: 430px) and (min-width: 300px) {
+  .product-image {
+    height: 10rem;
+    width: 20rem;
+  }
+  .purchased-product-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    padding-left: 1rem;
+    margin: 0px 10px 0px 0px;
+  }
+  .first-box {
+    width: 90%;
+    border: solid 3px black;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .second-box {
+    width: 90%;
+    border: solid 3px black;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .order-amount-overview {
+    display: grid;
+    grid-template-columns: repeat(3);
+    justify-content: flex;
+  }
+}

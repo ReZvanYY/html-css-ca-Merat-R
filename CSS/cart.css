@@ -1,0 +1,1037 @@
+body {
+  font-family: "Kameron";
+}
+.first-product,
+.second-product {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  height: fit-content;
+  border: solid 4px rgba(10, 54, 65, 1);
+  background-color: rgba(189, 200, 235, 1);
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+.product-image-cart {
+  display: block;
+  margin-top: 10px;
+  padding: 1rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 2rem;
+}
+.product-size-silverbreeze {
+  font-size: 1.2rem;
+  display: flex;
+  margin-top: 3rem;
+  margin-left: -15.1rem;
+}
+.product-size {
+  font-size: 1.2rem;
+  display: flex;
+  margin-top: 3rem;
+  margin-left: -15.1rem;
+}
+.product-name {
+  font-size: 1.2rem;
+  width: 100%;
+}
+.product-quantity-item-1 {
+  font-size: 1.2rem;
+  width: 3rem;
+  height: 1rem;
+  border: none;
+  display: flex;
+  text-align: center;
+  margin-top: 8.15rem;
+  background-color: transparent;
+}
+.product-quantity-item-2 {
+  font-size: 1.2rem;
+  width: 3rem;
+  height: 1rem;
+  border: none;
+  display: flex;
+  text-align: center;
+  margin-top: 8.15rem;
+  background-color: transparent;
+}
+.quantity-label {
+  font-size: 1.2rem;
+  display: flex;
+  margin-top: 8rem;
+  font-weight: bold;
+  margin-left: 10rem;
+}
+.product-price-cart {
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  margin-top: 6rem;
+  margin-left: -7.4rem;
+}
+.cart-product-container {
+  width: 50%;
+}
+.order-summary-container {
+  border: solid rgba(10, 54, 65, 1) 5px;
+  background-color: rgba(189, 200, 235, 1);
+  border-radius: 2rem;
+  width: 40rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45rem;
+  margin-top: -26.3rem;
+}
+.order-summary-title {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+}
+main {
+  margin-bottom: 21rem;
+}
+.order-summary-list-overview {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: 7rem;
+}
+.order-summary-product-list,
+.order-summary-quantity-list {
+  flex: 1;
+  padding: 1rem;
+  margin-top: 10px;
+  list-style: none;
+  font-size: 1.2rem;
+}
+.order-summary-quantity-list {
+  margin-left: 10rem;
+  text-align: center;
+}
+.total-quantity {
+  font-size: 1.5rem;
+  display: flex;
+  text-align: left;
+  width: 100%;
+  margin-top: 5.2rem;
+  margin-left: 1rem;
+}
+.total-sum {
+  font-size: 1.5rem;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: -3rem;
+}
+.interactive-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.cancel-order-button,
+.pay-now-button {
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+.pay-now-button {
+  background-color: rgba(20, 190, 252, 1);
+}
+.pay-now-button:hover {
+  border: solid black 5px;
+  cursor: pointer;
+}
+.cancel-order-button {
+  background-color: grey;
+}
+
+.cancel-order-button:hover {
+  background-color: red;
+  color: white;
+  border: black solid 5px;
+  cursor: pointer;
+}
+
+.recommeneded-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9.2rem;
+  border: solid rgba(10, 54, 65, 1) 5px;
+  border-radius: 15px;
+  background-color: rgba(10, 54, 65, 1);
+  padding: 5px;
+  width: 100%;
+  height: 10rem;
+  padding-top: 2rem;
+  margin-top: -3rem;
+}
+.recommended-items-image {
+  width: 15rem;
+  height: 10rem;
+  border-radius: 15px;
+}
+.recommended-items-text {
+  font-size: 1.5rem;
+  z-index: 1000;
+  color: white;
+  margin-left: 1rem;
+}
+
+@media (max-width: 2560px) and (min-width: 1440px) {
+  .first-product,
+  .second-product {
+    width: 70rem;
+    height: 23rem;
+    margin-bottom: 1rem;
+  }
+  .product-image-cart {
+    margin-top: 10px;
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  .product-size-silverbreeze {
+    font-size: 2.2rem;
+    margin-top: 5rem;
+    margin-left: -23rem;
+  }
+  .product-size {
+    font-size: 2.2rem;
+    margin-top: 5rem;
+    margin-left: -25rem;
+  }
+  .product-name {
+    font-size: 2.2rem;
+    width: 100%;
+  }
+  .product-quantity-item-1 {
+    display: flex;
+    font-size: 2.2rem;
+    width: 4rem;
+    height: 3rem;
+    margin-top: 19rem;
+  }
+  .product-quantity-item-2 {
+    display: flex;
+    font-size: 2.2rem;
+    width: 4rem;
+    height: 3rem;
+    margin-top: 19rem;
+  }
+  .quantity-label {
+    display: flex;
+    font-size: 2.2rem;
+    margin-top: 19.1rem;
+    margin-left: 20rem;
+  }
+  .product-price-cart {
+    font-size: 2.2rem;
+    width: 100%;
+    margin-top: 15rem;
+    margin-left: -16rem;
+  }
+  .cart-product-container {
+    width: 50%;
+  }
+  .order-summary-container {
+    width: 60rem;
+    height: 30rem;
+    margin-left: 55%;
+    margin-top: -49rem;
+  }
+  .order-summary-title {
+    font-size: 4rem;
+  }
+  main {
+    margin-bottom: 27rem;
+  }
+  .order-summary-list-overview {
+    gap: 4rem;
+    height: 7rem;
+  }
+  .order-summary-product-list,
+  .order-summary-quantity-list {
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 2.2rem;
+  }
+  .order-summary-quantity-list {
+    margin-left: 2rem;
+  }
+  .total-quantity {
+    font-size: 2.2rem;
+    width: 100%;
+    margin-top: 8.2rem;
+    margin-left: 1rem;
+  }
+  .total-sum {
+    font-size: 2.2rem;
+    width: 100%;
+    margin-top: -4.5rem;
+  }
+  .interactive-buttons {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cancel-order-button,
+  .pay-now-button {
+    width: 25rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .pay-now-button:hover {
+    border: solid black 5px;
+    cursor: pointer;
+  }
+  .cancel-order-button:hover {
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    cursor: pointer;
+  }
+
+  .recommeneded-items {
+    display: grid;
+    grid-template-columns: repeat(2);
+    gap: 0.3rem;
+    padding: 2rem;
+    width: 100%;
+    height: 24rem;
+    padding-top: 1rem;
+    margin-top: -5rem;
+    margin-left: 0rem;
+  }
+  .recommended-items-image {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2.5rem;
+    border-radius: 2rem;
+  }
+  .recommended-items-text {
+    font-size: 2.5rem;
+    z-index: 1000;
+    margin-left: 1rem;
+    padding: 2px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .first-product,
+  .second-product {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    height: fit-content;
+    border: solid 4px rgba(10, 54, 65, 1);
+    background-color: rgba(189, 200, 235, 1);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+  }
+  .product-image-cart {
+    display: block;
+    margin-top: 10px;
+    padding: 1rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 2rem;
+  }
+  .product-size-silverbreeze {
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: -15.1rem;
+  }
+  .product-size {
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: -15.1rem;
+  }
+  .product-name {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .product-quantity-item-1 {
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    border: none;
+    display: flex;
+    text-align: center;
+    margin-top: 8.15rem;
+    background-color: transparent;
+  }
+  .product-quantity-item-2 {
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    border: none;
+    display: flex;
+    text-align: center;
+    margin-top: 8.15rem;
+    background-color: transparent;
+  }
+  .quantity-label {
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 8rem;
+    font-weight: bold;
+    margin-left: 10rem;
+  }
+  .product-price-cart {
+    font-size: 1.2rem;
+    display: flex;
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: -7.4rem;
+  }
+  .cart-product-container {
+    width: 50%;
+  }
+  .order-summary-container {
+    border: solid rgba(10, 54, 65, 1) 5px;
+    background-color: rgba(189, 200, 235, 1);
+    border-radius: 2rem;
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45rem;
+    margin-top: -26.3rem;
+  }
+  .order-summary-title {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+  }
+  main {
+    margin-bottom: 21rem;
+  }
+  .order-summary-list-overview {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 7rem;
+  }
+  .order-summary-product-list,
+  .order-summary-quantity-list {
+    flex: 1;
+    padding: 1rem;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  .order-summary-quantity-list {
+    margin-left: 10rem;
+    text-align: center;
+  }
+  .total-quantity {
+    font-size: 1.5rem;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-top: 5.2rem;
+    margin-left: 1rem;
+  }
+  .total-sum {
+    font-size: 1.5rem;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: -3rem;
+  }
+  .interactive-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .cancel-order-button,
+  .pay-now-button {
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+  }
+  .pay-now-button {
+    background-color: rgba(20, 190, 252, 1);
+  }
+  .pay-now-button:hover {
+    border: solid black 5px;
+    cursor: pointer;
+  }
+  .cancel-order-button {
+    background-color: grey;
+  }
+
+  .cancel-order-button:hover {
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    cursor: pointer;
+  }
+
+  .recommeneded-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9.2rem;
+    border: solid rgba(10, 54, 65, 1) 5px;
+    border-radius: 15px;
+    background-color: rgba(10, 54, 65, 1);
+    padding: 5px;
+    width: 100%;
+    height: 12rem;
+    padding-top: 2rem;
+    margin-top: -3rem;
+  }
+  .recommended-items-image {
+    width: 13rem;
+    height: 8rem;
+    border-radius: 15px;
+  }
+  .recommended-items-text {
+    font-size: 1.5rem;
+    z-index: 1000;
+    color: white;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .first-product,
+  .second-product {
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+  .product-image-cart {
+    margin-top: 10px;
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  .product-size-silverbreeze {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-left: -10rem;
+  }
+  .product-size {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-left: -11rem;
+  }
+  .product-name {
+    width: 100%;
+  }
+  .product-quantity-item-1 {
+    display: flex;
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .product-quantity-item-2 {
+    display: flex;
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .quantity-label {
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 8.8rem;
+    margin-left: -2rem;
+  }
+  .product-price-cart {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: -7.4rem;
+  }
+  .cart-product-container {
+    width: 50%;
+  }
+  .order-summary-container {
+    width: 35rem;
+    height: 25rem;
+    margin-left: 26rem;
+    margin-top: -28rem;
+  }
+  .order-summary-title {
+    font-size: 2rem;
+  }
+  main {
+    margin-bottom: 7rem;
+  }
+  .order-summary-list-overview {
+    gap: 2rem;
+    height: 7rem;
+  }
+  .order-summary-product-list,
+  .order-summary-quantity-list {
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+  .order-summary-quantity-list {
+    margin-left: 2rem;
+  }
+  .total-quantity {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 8.2rem;
+    margin-left: 1rem;
+  }
+  .total-sum {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: -2.3rem;
+  }
+  .interactive-buttons {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cancel-order-button,
+  .pay-now-button {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .pay-now-button:hover {
+    border: solid black 5px;
+    cursor: pointer;
+  }
+  .cancel-order-button:hover {
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    cursor: pointer;
+  }
+
+  .recommeneded-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    padding: 2rem;
+    width: 85%;
+    height: 15rem;
+    padding-top: 1rem;
+    margin-top: -3rem;
+    margin-left: 1rem;
+  }
+  .recommended-items-image {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+  }
+  .recommended-items-text {
+    font-size: 1.5rem;
+    z-index: 1000;
+    margin-left: 1rem;
+    padding: 2px;
+  }
+}
+@media (max-width: 768px) and (min-width: 430px) {
+  .first-product,
+  .second-product {
+    width: 45rem;
+    margin-bottom: 1rem;
+  }
+  .product-image-cart {
+    margin-top: 10px;
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  .product-size-silverbreeze {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-left: -16rem;
+  }
+  .product-size {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-left: -17rem;
+  }
+  .product-name {
+    width: 100%;
+  }
+  .product-quantity-item-1 {
+    display: block;
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .product-quantity-item-2 {
+    display: block;
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .quantity-label {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 8.8rem;
+    margin-left: 11rem;
+  }
+  .product-price-cart {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: -7.4rem;
+  }
+  .cart-product-container {
+    width: 50%;
+  }
+  .order-summary-container {
+    width: 45rem;
+    height: 25rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .order-summary-title {
+    font-size: 2rem;
+  }
+  main {
+    margin-bottom: 7rem;
+  }
+  .order-summary-list-overview {
+    gap: 2rem;
+    height: 7rem;
+  }
+  .order-summary-product-list,
+  .order-summary-quantity-list {
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+  .order-summary-quantity-list {
+    margin-left: 2rem;
+  }
+  .total-quantity {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 8.2rem;
+    margin-left: 1rem;
+  }
+  .total-sum {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: -2.3rem;
+  }
+  .interactive-buttons {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cancel-order-button,
+  .pay-now-button {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .pay-now-button:hover {
+    border: solid black 5px;
+    cursor: pointer;
+  }
+  .cancel-order-button:hover {
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    cursor: pointer;
+  }
+
+  .recommeneded-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    padding: 2rem;
+    width: 85%;
+    height: 15rem;
+    padding-top: 1rem;
+    margin-top: -3rem;
+    margin-left: 1rem;
+  }
+  .recommended-items-image {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+  }
+  .recommended-items-text {
+    font-size: 1.5rem;
+    z-index: 1000;
+    margin-left: 1rem;
+    padding: 2px;
+  }
+}
+@media (max-width: 430px) and (min-width: 350px) {
+  .first-product,
+  .second-product {
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+  .product-image-cart {
+    margin-top: 10px;
+    padding: 1rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .product-size-silverbreeze {
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-left: -9rem;
+  }
+  .product-size {
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-left: -9rem;
+  }
+  .product-name {
+    width: 100%;
+  }
+  .product-quantity-item-1 {
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .product-quantity-item-2 {
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .quantity-label {
+    font-size: 1.2rem;
+    margin-top: 8.8rem;
+    margin-left: -1rem;
+  }
+  .product-price-cart {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: -7.4rem;
+  }
+  .cart-product-container {
+    width: 50%;
+  }
+  .order-summary-container {
+    width: 25rem;
+    height: 20rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .order-summary-title {
+    font-size: 1.3rem;
+  }
+  main {
+    margin-bottom: 7rem;
+  }
+  .order-summary-list-overview {
+    gap: 0rem;
+    height: 7rem;
+  }
+  .order-summary-product-list,
+  .order-summary-quantity-list {
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+  .order-summary-quantity-list {
+    margin-left: 2rem;
+  }
+  .total-quantity {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 8.2rem;
+    margin-left: 1rem;
+  }
+  .total-sum {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: -2.3rem;
+  }
+  .interactive-buttons {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cancel-order-button,
+  .pay-now-button {
+    width: 11rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .pay-now-button:hover {
+    border: solid black 5px;
+    cursor: pointer;
+  }
+  .cancel-order-button:hover {
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    cursor: pointer;
+  }
+
+  .recommeneded-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    width: 80%;
+    height: 10rem;
+    padding-top: 1rem;
+    margin-top: -3rem;
+    margin: auto;
+  }
+  .recommended-items-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+  }
+  .recommended-items-text {
+    font-size: 1rem;
+    z-index: 1000;
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+  }
+}
+@media (max-width: 350px) and (min-width: 50px) {
+  .first-product,
+  .second-product {
+    width: 20rem;
+    margin-bottom: 1rem;
+  }
+  .product-image-cart {
+    margin-top: 10px;
+    padding: 1rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .product-size-silverbreeze {
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-left: -9rem;
+  }
+  .product-size {
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-left: -9rem;
+  }
+  .product-name {
+    width: 100%;
+  }
+  .product-quantity-item-1 {
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .product-quantity-item-2 {
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 1rem;
+    margin-top: 9rem;
+  }
+  .quantity-label {
+    font-size: 1.2rem;
+    margin-top: 8.8rem;
+    margin-left: -6rem;
+  }
+  .product-price-cart {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: -7.4rem;
+  }
+  .cart-product-container {
+    width: 50%;
+  }
+  .order-summary-container {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .order-summary-title {
+    font-size: 1.3rem;
+  }
+  main {
+    margin-bottom: 7rem;
+  }
+  .order-summary-list-overview {
+    gap: 0rem;
+    height: 7rem;
+  }
+  .order-summary-product-list,
+  .order-summary-quantity-list {
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+  .order-summary-quantity-list {
+    margin-left: 2rem;
+  }
+  .total-quantity {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 8.2rem;
+    margin-left: 1rem;
+  }
+  .total-sum {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: -2.3rem;
+  }
+  .interactive-buttons {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cancel-order-button,
+  .pay-now-button {
+    width: 9rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .pay-now-button:hover {
+    border: solid black 5px;
+    cursor: pointer;
+  }
+  .cancel-order-button:hover {
+    background-color: red;
+    color: white;
+    border: black solid 5px;
+    cursor: pointer;
+  }
+
+  .recommeneded-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    width: 75%;
+    height: 10rem;
+    padding-top: 1rem;
+    margin-top: -3rem;
+    margin: auto;
+  }
+  .recommended-items-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15px;
+  }
+  .recommended-items-text {
+    font-size: 1rem;
+    z-index: 1000;
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+  }
+}
